@@ -9,10 +9,10 @@ npm i @0xreeko/next-ga
 ```
 
 **How to use**
-Grab your measurement ID from the Google Analytics dashboard and plug it into NextGA's mID prop.
+Grab your measurement ID from the Google Analytics dashboard and plug it into NextGA's mID prop. Use in `_app.tsx` entrypoint file.
 
 ```jsx
-// in _app.tsx
+// app.tsx
 
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
