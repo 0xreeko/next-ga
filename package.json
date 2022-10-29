@@ -34,7 +34,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "nextga",
+  "name": "0xreeko/nextga",
   "author": "https://twitter.com/0xreeko",
   "module": "dist/next-ga.esm.js",
   "size-limit": [
