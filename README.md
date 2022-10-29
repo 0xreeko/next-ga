@@ -1,11 +1,11 @@
-# @0xreeko/next-ga
+# nextgas - Next Google Analytics📊
 
 Google Analytics script component for NextJs to avoid recurrent setup in every build.
 
 **How to install**
 
 ```
-npm i @0xreeko/next-ga
+npm i nextgas
 ```
 
 **How to use**
@@ -16,7 +16,7 @@ Grab your measurement ID from the Google Analytics dashboard and plug it into Ne
 
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { NextGA } from '@0xreeko/next-ga'
+import { NextGA } from 'nextgas'
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
